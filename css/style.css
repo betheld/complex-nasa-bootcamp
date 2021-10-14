@@ -1,0 +1,71 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  .alignright {
+      float: right;
+      padding: 0 0 10px 10px; /* note the padding around a right floated image */
+  }
+  
+  .alignleft {
+      float: left;
+      padding: 0 10px 10px 0; /* note the padding around a left floated image */
+  }
+
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+ 
+body{
+    font-family: 'Play', sans-serif;
+    background-color: grey;
+    background-image: url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80');
+    background-repeat:no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+h1{
+    width: fit-content;
+    color:rgb(0, 0, 0);
+}
+table{
+    border-radius: 8px;
+    padding: 25px;
+    background-color: #003cd592;
+    text-align: center;
+    margin:0;
+}
+
+th{
+    font-size: 25px;
+}
+
+td{
+    background-color: #335fd0f0;
+    border: solid 1px #b0afaf6b;
+    font-size: 18px;
+    padding: 5px;
+}
